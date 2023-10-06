@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Century Gothic'
+}
+
+/*body {
+    background-image: linear-gradient(white, rgb(247, 228, 243));
+    background-color: rgb(246, 246, 246);
+}
+*/
+
+header {
+    background-color:rgb(255, 193, 231);
+    background-image: linear-gradient(rgb(251, 247, 234), rgb(255, 193, 231));
+    text-align: center;
+    color: rgb(232, 112, 186);
+    margin: 40px auto;
+}
+
+.aboutme {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    position: relative;
+    top: 40px;
+    border: 0px solid black;
+}
+
+.contact ul {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact li {
+    font-size: 14px;
+    text-align: center;
+    font-weight:bold;
+    display: inline-block;
+    color: rgb(90, 155, 202);
+    background-color:rgb(184, 238, 242);
+    border: 3px solid rgb(255, 255, 255);
+    width: 150px;
+    height: 60px;
+    padding-top:20px;
+}
+
+.contact li:hover {
+    background-color:rgb(180, 160, 201);
+    color:white;
+    opacity: 75%;
+}
+
+.contact:hover .hide{
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
+.hide li{
+    font-size: 13px;
+    font-weight:normal;
+    background-color:rgb(180, 160, 201);
+    color:white;
+}
+
+/*idk seems fun
+h2 {
+    writing-mode: vertical-lr;
+    float: left;
+}*/
+
+h2, p {
+    color:rgb(56, 56, 56);
+}
+
+.nav{
+    color: hotpink;
+    border: 1px solid whitesmoke;
+    background-image:url('https://i.pinimg.com/1200x/20/5f/c1/205fc1c2faa4f6bf41068c652adb2501.jpg');
+}
+
+ul{
+    padding: 0;
+}
+
+.nav li {
+    list-style: none;
+    text-align: center;
+    padding: 12px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: white;
+    opacity: 70%;
+    margin: 10px auto;
+}
+
+.nav li:hover{
+    background-color:rgb(145, 78, 130);
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+}
